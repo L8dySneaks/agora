@@ -1,0 +1,668 @@
+/*==========  Mobile First Method  ==========*/
+
+   /* Custom, iPhone Retina */
+   @media only screen and (min-width : 320px) {
+    .page-template-template-acquisitions .left-content,
+    .page-template-template-forsale .left-content,
+    .page-template-template-forlease .left-content {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .page-template-template-acquisitions .right-content,
+    .page-template-template-forsale .right-content,
+    .page-template-template-forlease .right-content {
+      margin-top: 50px;
+      padding-left: 14px;
+    }
+
+    .page-template-template-casestudies .left-content {
+      margin-top: 50px;
+      padding-left: 14px;
+    }
+
+    .page-template-template-capabilities .hp-grid-height {
+      min-height: 180px;
+    }
+
+    /* Footer Styles */
+     .copyright {
+       margin-top: 80px;
+     }
+
+   }
+
+   /* Extra Small Devices, Phones */
+   @media only screen and (min-width : 480px) {
+
+    .page-template-template-acquisitions .left-content,
+    .page-template-template-forsale .left-content,
+    .page-template-template-forlease .left-content {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .page-template-template-acquisitions .right-content,
+    .page-template-template-forsale .right-content,
+    .page-template-template-forlease .right-content {
+      margin-top: 50px;
+    }
+
+    .location-link {
+      margin-bottom: 0px;
+      margin-top: -17px;
+    }
+
+    /* Case Study Template */
+    .case-study {
+      padding-left: 64px;
+    }
+
+    .case-study-before .caption-white,
+    .case-study-after .caption-white {
+      padding-left: 80px;
+      padding-top: 370px;
+      text-align: inherit;
+    }
+
+    /* Investors */
+    .investors {
+      padding-left: 32px;
+    }
+
+    /* Login */
+    /* Contact Us */
+    .contact,
+    .login,
+    .tenants {
+      padding-left: 62px;
+    }
+
+     /* Footer Styles */
+     #footer {
+       padding: 0 30px;
+     }
+
+     .copyright {
+       margin-top: 80px;
+     }
+   }
+
+   /* Galaxy Tabs, Blackberry, Amazon */
+   @media (min-width: 481px) and (max-width: 767px) {
+     .property-image {
+       margin-right: 20px;
+     }
+
+     .location-link {
+       margin-top: 17px;
+     }
+
+     /* For Sale And For Lease */
+     .forsale-table,
+     .forlease-table {
+       width: 560px;
+     }
+
+     /* Contact Us */
+     .additional-info {
+       padding-right: 330px;
+     }
+
+     /* Footer Styles */
+     #footer {
+       padding: 0 50px;
+     }
+
+   }
+
+   /* Small Devices, Tablets */
+   @media only screen and (min-width : 768px) {
+     .row-eq-height {
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+     }
+
+     /* Home Page Template */
+     .home-properties {
+        margin-left: 90px;
+        padding: 80px 55px 0 60px;
+      }
+
+      .home-acquisitions,
+      .home-investment,
+      .home-about {
+        padding: 80px 90px 0 40px;
+      }
+
+      .home-lease {
+        padding: 80px 20px 0 40px;
+      }
+
+      .home-tenants {
+        padding: 80px 20px 0 20px;
+      }
+
+      .home-news {
+        padding: 80px 10px 0 20px;
+      }
+
+     .page-template-template-acquisitions .left-content,
+     .page-template-template-forsale .left-content,
+     .page-template-template-forlease .left-content {
+       margin-top: 74px;
+       padding: 0 20px;
+     }
+
+     .header-title {
+       margin-left: 64px;
+     }
+
+     .page-template-template-acquisitions .right-content {
+       margin-top: 74px;
+       padding-left: 80px;
+     }
+
+     .page-template-template-forsale .right-content,
+     .page-template-template-forlease .right-content  {
+       margin-top: 74px;
+       padding-left: 50px;
+     }
+
+     .property-image {
+       margin-right: 25px;
+     }
+
+     .page-template-template-forsale .right-content p.page-description,
+     .page-template-template-forlease .right-content p.page-description {
+       margin-bottom: 42px;
+     }
+
+     .location-link {
+       margin-bottom: 0px;
+       margin-top: 17px;
+     }
+
+     /* About Template */
+     .about-years {
+       padding: 60px 50px 0 40px;
+     }
+
+     .about-portfolio {
+       padding: 60px 0px 80px 40px;
+      }
+
+      /* Capabilities Template */
+      .page-template-template-capabilities .hp-grid-height {
+        min-height: 348px;
+      }
+
+      .capabilities-years,
+      .case-studies-deals {
+        padding: 77px 35px 30px 50px;
+      }
+
+      .capabilities-team,
+      .case-studies-experience {
+        padding: 77px 40px 0 65px;
+      }
+
+     .capabilities-list {
+       padding: 77px 40px 0px 80px;
+     }
+
+     /* Case Studies Template */
+     .page-template-template-casestudies .left-content {
+       margin-top: 0px;
+       padding: 77px 0 0 77px;
+     }
+
+     /*.case-study {
+       padding-left: 15px;
+       padding-top: 80px;
+     }*/
+
+     .page-template-template-case-study-large-img .hp-grid-height450,
+     .page-template-template-case-study-before-after .hp-grid-height450 {
+       min-height: 450px;
+     }
+
+     .page-template-template-case-study-large-img .hp-grid-height,
+     .page-template-template-case-study-before-after .hp-grid-height {
+       min-height: 348px;
+     }
+
+     .case-study-specs {
+       padding-left: 20px;
+       /*padding-top: 60px;*/
+     }
+
+     .middle-specs {
+       margin-top: 0;
+     }
+
+     .deal-notes {
+       padding-right: 10px;
+     }
+
+     .case-study-awards {
+       padding-left: 60px;
+       padding-top: 120px;
+     }
+
+     .award-type {
+       padding-right: 10px;
+     }
+
+     .large-quote {
+       font-size: 30px;
+       padding-left: 60px;
+       padding-right: 55px;
+       padding-top: 115px;
+     }
+
+     .small-quote {
+       font-size: 20px;
+       padding-left: 60px;
+       padding-right: 60px;
+       padding-top: 115px;
+     }
+
+     /* Community Page */
+     .page-template-template-community .hp-grid-height {
+       min-height: 348px;
+     }
+
+     .page-template-template-community .blank-block {
+       min-height: 348px;
+     }
+
+     .community {
+       padding-right: 145px;
+     }
+
+     /* Tenants Page */
+     .tenants p {
+       padding-right: 40px;
+     }
+
+     /* Investors */
+     .investor-btn {
+       position: relative;
+       text-align: center;
+       vertical-align: middle;
+       width: 85px;
+       left: 220px;
+       top: -20px;
+     }
+
+     .investors {
+       padding-left: 62px;
+    }
+
+     .investors p:first-of-type {
+       margin-top: 0px;
+     }
+
+     /* Footer */
+     #footer {
+       padding: 0 50px;
+     }
+
+     .copyright {
+       margin-left: 30px;
+       margin-top: 130px;
+     }
+
+     .social {
+       float: right;
+       margin-top: 130px;
+       margin-right: 40px;
+     }
+   }
+
+   /* Medium Devices, Desktops */
+   @media only screen and (min-width : 992px) {
+     .row-eq-height {
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+     }
+
+     /* Home Template */
+     .home-properties {
+        margin-left: 160px;
+        padding: 80px 60px 0 80px;
+      }
+
+      .home-acquisitions,
+      .home-investment,
+      .home-about {
+        padding: 80px 140px 0 80px;
+      }
+
+      .home-lease {
+        padding: 80px 40px 0 40px;
+      }
+
+      .home-tenants {
+        padding: 80px 20px 0 65px;
+      }
+
+      .home-news {
+        padding: 80px 40px 0 80px;
+      }
+
+     .page-template-template-acquisitions .left-content,
+     .page-template-template-forsale .left-content,
+     .page-template-template-forlease .left-content {
+       padding: 0 50px;
+     }
+
+     .page-template-template-acquisitions .right-content,
+     .page-template-template-forsale .right-content,
+     .page-template-template-forlease .right-content {
+       padding-left: 80px;
+     }
+
+     .page-template-template-forsale .right-content p.page-description,
+     .page-template-template-forlease .right-content p.page-description {
+       margin-bottom: 42px;
+     }
+
+     .property-image {
+       margin-right: 84px;
+     }
+
+     /* About Template */
+     .about-years {
+       padding: 80px 50px 0 40px;
+     }
+
+     .about-team {
+       padding: 80px 135px 0 40px;
+     }
+
+     /* For Sale And For Lease */
+     .forsale-table,
+     .forlease-table {
+        width: 580px;
+      }
+
+     /* Capabilities Template */
+     .capabilities-team,
+     .case-studies-experience {
+       padding: 77px 220px 0 65px;
+     }
+
+     /* Case Studies Template */
+     .page-template-template-casestudies .left-content {
+       margin-top: 0px;
+       padding: 77px 0 0 77px;
+     }
+
+     .case-study-specs {
+       padding-left: 60px;
+       /*padding-top: 60px;*/
+     }
+
+     .deal-notes {
+       padding-right: 10px;
+     }
+
+     .case-study-awards {
+       padding-left: 60px;
+       padding-top: 115px;
+     }
+
+     .award-type {
+       padding-right: 90px;
+     }
+
+     .large-quote {
+       font-size: 30px;
+       padding-left: 60px;
+       padding-right: 80px;
+       padding-top: 115px;
+     }
+
+     .small-quote {
+       font-size: 20px;
+       padding-left: 60px;
+       padding-right: 60px;
+       padding-top: 115px;
+     }
+
+     /* Investors */
+     .investor-btn {
+       position: relative;
+       text-align: center;
+       vertical-align: middle;
+       width: 85px;
+       left: 310px;
+       top: -20px;
+     }
+
+     /* Contact Us */
+     .additional-info {
+       padding-right: 90px;
+     }
+
+     /* Footer */
+
+     #footer {
+       padding: 0 50px;
+     }
+
+     .copyright {
+       margin-left: 30px;
+       margin-top: 130px;
+     }
+
+     .social {
+       float: right;
+       margin-top: 130px;
+       margin-right: 40px;
+     }
+   }
+
+   /* Large Devices, Wide Screens */
+   @media only screen and (min-width : 1200px) {
+     .row-eq-height {
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+     }
+
+     /* Home Template */
+     .home-properties {
+        padding: 80px 110px 0 80px;
+      }
+
+      .home-acquisitions {
+        padding: 80px 190px 0 80px;
+      }
+
+      .home-about,
+      .home-news {
+        padding: 80px 185px 0 80px;
+      }
+
+      .home-investment {
+        padding: 80px 575px 0 80px;
+      }
+
+      .home-lease,
+      .home-tenants {
+        padding: 80px 40px 0 40px;
+      }
+
+     .page-template-template-acquisitions .left-content,
+     .page-template-template-forsale .left-content,
+     .page-template-template-forlease .left-content {
+       padding: 0 50px;
+     }
+
+     .page-template-template-acquisitions .right-content,
+     .page-template-template-forsale .right-content,
+     .ppage-template-template-forlease .right-content {
+       padding-left: 80px;
+     }
+
+     .page-template-template-forsale .right-content p.page-description,
+     .page-template-template-forlease .right-content p.page-description {
+       margin-bottom: 42px;
+     }
+
+     /* About Template */
+     .about-team {
+       padding: 80px 315px 0 40px;
+     }
+
+     .about-portfolio {
+       padding: 60px 320px 80px 40px;
+     }
+
+     /* Capabilities Template */
+     .capabilities-years,
+     .case-studies-deals {
+       padding: 77px 95px 30px 80px;
+     }
+
+     /* For Sale And For Lease */
+     .forsale-table,
+     .forlease-table {
+        width: 620px;
+      }
+
+     /* Case Studies Template */
+     .page-template-template-casestudies .left-content {
+       margin-top: 0px;
+       padding: 77px 0 0 77px;
+     }
+
+     .casestudies-table {
+       width: 640px;
+     }
+
+     /*.page-template-template-casestudies td img:last-child {
+       margin-bottom: 0;
+     }*/
+
+     .property-content {
+       padding-top: 3px;
+     }
+
+     .case-study-awards {
+       padding-left: 67px;
+       padding-top: 118px;
+       margin-bottom: 100px;
+     }
+
+     .case-study p.title {
+       padding-bottom: 6px;
+     }
+
+     .case-study p.building {
+       margin-bottom: 1px;
+     }
+
+     .building {
+       font-size: 33px;
+     }
+
+     .location {
+       font-size: 17px;
+     }
+
+     .left-white-border {
+       border-left: 1px solid #fff;
+       /*padding: 29px 0 24px 0;*/
+     }
+
+     .left-white-border p {
+       padding-left: 20px;
+     }
+
+     .case-study-specs p {
+       margin-bottom: 0px;
+     }
+
+     .case-study-specs .margin-bottom-35 {
+       margin-bottom: 25px;
+     }
+
+     .deal-notes {
+       padding-right: 60px;
+     }
+
+     .deal-notes li {
+       line-height: 25px;
+       margin-bottom: 15px;
+     }
+
+     .award-header {
+       margin-bottom: 2px;
+     }
+
+     .award-type {
+       padding-right: 110px;
+     }
+
+     .large-quote {
+       font-size: 30px;
+       padding-left: 80px;
+       padding-right: 100px;
+       padding-top: 118px;
+     }
+
+     .small-quote {
+       font-size: 20px;
+       padding-left: 62px;
+       padding-right: 115px;
+       padding-top: 118px;
+     }
+
+     /* Tenants Page */
+     .tenants p {
+       padding-right: 100px;
+     }
+
+     /* Investors */
+     .investor-btn {
+       position: relative;
+       text-align: center;
+       vertical-align: middle;
+       width: 85px;
+       left: 410px;
+       top: -20px;
+     }
+
+
+     .investors p {
+       padding-right: 90px;
+     }
+
+     /* Contact Us */
+     .additional-info {
+       padding-right: 170px;
+     }
+
+     /*  Footer */
+     #footer {
+       padding: 0 50px;
+     }
+
+     .copyright {
+       margin-top: 130px;
+     }
+
+     .social {
+       float: right;
+       margin-top: 130px;
+     }
+   }

@@ -1,0 +1,667 @@
+/*
+Theme Name: DW Bootstrap Child
+Description: A Bootstrap Child theme
+Template: dw-bootstrap
+*/
+
+/* Common To All Pages */
+@font-face {
+    font-family: SansPlain;
+    src: url(fonts/TheSansPlain.ttf);
+}
+
+@font-face {
+    font-family: SansBoldPlain;
+    src: url(fonts/TheSansBoldPlain.ttf);
+}
+
+@font-face {
+  font-family: "SansSemiLight";
+  src: url("fonts/TheSans_B2_400_.eot");
+  src: url("fonts/TheSans_B2_400_.eot?#iefix") format("embedded-opentype"),
+  url("fonts/TheSans_B2_400_.woff") format("woff"),
+  url("fonts/TheSans_B2_400_.svg#TheSans_B2_400_") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SansPlain";
+  src: url("fonts/TheSans_B2_500_.eot");
+  src: url("fonts/TheSans_B2_500_.eot?#iefix") format("embedded-opentype"),
+  url("fonts/TheSans_B2_500_.woff") format("woff"),
+  url("fonts/TheSans_B2_500_.svg#TheSans_B2_500_") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SansSemiBold";
+  src: url("fonts/TheSans_B2_600_.eot");
+  src: url("fonts/TheSans_B2_600_.eot?#iefix") format("embedded-opentype"),
+  url("fonts/TheSans_B2_600_.woff") format("woff"),
+  url("fonts/TheSans_B2_600_.svg#TheSans_B2_600_") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SansBold";
+  src: url("fonts/TheSans_B2_700_.eot");
+  src: url("fonts/TheSans_B2_700_.eot?#iefix") format("embedded-opentype"),
+  url("fonts/TheSans_B2_700_.woff") format("woff"),
+  url("fonts/TheSans_B2_700_.svg#TheSans_B2_700_") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  /*background-color: #f0f0ec;*/
+  font-family: SansPlain, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.red-bg {
+  background-color: #d41c22;
+}
+
+.red {
+  color: #d41c22;
+}
+
+.white {
+  color: #fff;
+}
+
+.gray-bg {
+  background-color: #939598;
+}
+
+.tan-bg {
+  background-color: #f0f0ec;
+}
+
+.darkbrown-bg {
+  background-color: #452102;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 37px;
+  margin-left: 45px;
+  margin-top: 66px;
+}
+
+.caption-brown {
+  color: #2d1c0f;
+}
+
+.caption-white {
+  color: #fff;
+}
+
+.row-eq-height {
+  display: block;
+}
+
+.img-responsive {
+  height: 100%;
+  width: 100%;
+}
+
+/*  Home Page */
+#agora-home {
+  color: white;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.page-template-template-community .hp-grid-height {
+  min-height: 268px;
+}
+
+.page-template-template-case-study-large-img .hp-grid-height450,
+.page-template-template-case-study-before-after .hp-grid-height450 {
+  min-height: 270px;
+}
+
+.hp-grid-height {
+  min-height: 348px;
+}
+
+.hp-grid-height450 {
+  min-height: 450px;
+}
+
+.home-properties-bg {
+  background-image: url("http://via.placeholder.com/640x348");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+
+.home-properties {
+  background-color: #000;
+  height: 100%;
+  /*margin-left: 300px;*/
+  opacity: .85;
+  padding: 80px 40px 0 40px;
+}
+
+.home-acquisitions,
+.home-investment,
+.home-about,
+.home-lease,
+.home-tenants,
+.home-news {
+  margin: 0px;
+  padding: 80px 40px 0 40px;
+}
+
+.home-lease,
+.home-tenants {
+  color: #43240e;
+}
+
+.home-investment-bg {
+  background-image: url("http://via.placeholder.com/960x348");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+
+.home-investment-img {
+  height: 348px;
+}
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-item-title {
+  font-size: 22px;
+}
+
+/* Template Acquistions */
+  .agora-acquistions {
+    background-image: url(images/acquistions.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 348px;
+    overflow: hidden;
+  }
+
+  .page-template-template-acquisitions .left-content,
+  .page-template-template-forsale .left-content,
+  .page-template-template-forlease .left-content {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 80px;
+    padding: 0 50px;
+    text-transform: uppercase;
+  }
+
+  .page-template-template-acquisitions .right-content,
+  .page-template-template-forsale .right-content,
+  .page-template-template-forlease .right-content {
+    margin-bottom: 153px;
+    margin-top: 80px;
+    max-width: 640px;
+    padding-left: 54px;
+  }
+
+  .right-content p {
+    line-height: 24px;
+  }
+
+  .page-template-template-forsale .right-content p.page-description,
+  .page-template-template-forlease .right-content p.page-description {
+    margin-bottom: 42px;
+  }
+
+  /*.right-content .list-padding ul {
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }*/
+
+/* Template For Sale */
+.agora-forsale {
+  background-image: url("http://via.placeholder.com/1280x348");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 348px;
+  overflow: hidden;
+}
+
+.page-template-template-forsale tr,
+.page-template-template-forlease tr,
+.page-template-template-casestudies tr {
+  border-top: 1px solid #43240e;
+}
+
+.page-template-template-forsale td img,
+.page-template-template-forlease td img,
+.page-template-template-casestudies td img {
+  margin: 23px 0;
+}
+
+.property-image,
+.property-content {
+  float: left;
+}
+
+.location-link {
+  margin-bottom: 0px;
+  margin-top: -17px;
+}
+
+.property-type {
+  margin-bottom: 23px;
+}
+
+/*  For Lease Template */
+.agora-forlease {
+  background-image: url("http://via.placeholder.com/1280x348");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 348px;
+  overflow: hidden;
+}
+
+/* Template About */
+.agora-aboutus {
+  background-image: url("http://via.placeholder.com/1280x348");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 348px;
+  overflow: hidden;
+}
+
+.about-years,
+.capabilities-years,
+.case-studies-deals {
+  text-transform: uppercase;
+  padding: 50px 55px 30px 40px;
+}
+
+.about-team {
+  padding: 60px 40px 0 40px;
+}
+
+.about-portfolio {
+  padding: 60px 30px 80px 40px;
+}
+
+/* Template Capabilites */
+.agora-capabilites {
+  background-image: url("http://via.placeholder.com/1280x348");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 348px;
+  overflow: hidden;
+}
+
+.capabilities-team,
+.case-studies-experience {
+  padding: 60px 40px;
+}
+
+.list-intro {
+  margin-bottom: 32px;
+}
+
+.capabilities-list {
+  padding: 60px 40px 0 40px;
+  margin-bottom: 160px;
+}
+
+.capabilities-title {
+  margin-bottom: 3px;
+}
+
+.capabilities-description {
+  margin-bottom: 35px;
+}
+
+/* Case Studies Template */
+.agora-case-studies {
+  background-image: url("http://via.placeholder.com/1280x348");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 348px;
+  overflow: hidden;
+}
+
+.page-template-template-casestudies .left-content {
+  margin-bottom: 160px;
+  max-width: 640px;
+}
+
+.page-template-template-casestudies .page-description {
+  margin-bottom: 62px;
+}
+
+.page-template-template-casestudies .gray-bg {
+  height: 460px;
+  max-width: 400px;
+}
+
+/* Each Case Study Template */
+.page-template-template-case-study-before-after .no-padding {
+  max-height: 450px;
+}
+
+.case-study-before {
+  background-image: url("http://via.placeholder.com/640x450");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 450px;
+}
+
+.case-study-after {
+  background-image: url("http://via.placeholder.com/640x450");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 450px;
+}
+
+/* Case Studies Template */
+.page-template-template-casestudies .left-content {
+  padding: 80px 0 0 80px;
+}
+
+.case-study-before .caption-white,
+.case-study-after .caption-white {
+  padding-top: 370px;
+  text-align: center;
+}
+
+.page-template-template-case-study-large-img .hp-grid-height,
+.page-template-template-case-study-before-after .hp-grid-height {
+  min-height: 0px;
+}
+
+.case-study {
+  padding-left: 40px;
+  padding-top: 75px;
+}
+
+.case-study-specs {
+  padding-bottom: 80px;
+  padding-left: 30px;
+  padding-top: 74px;
+}
+
+.middle-specs {
+  margin-top: 25px;
+}
+
+.case-study-awards {
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+.case-study p.title {
+  padding-bottom: 6px;
+}
+
+.case-study p.building {
+  margin-bottom: 1px;
+}
+
+.building {
+  font-size: 33px;
+}
+
+.location {
+  font-size: 17px;
+}
+
+.left-white-border {
+  border-left: 1px solid #fff;
+  /*padding: 29px 0 24px 0;*/
+}
+
+.left-white-border p {
+  padding-left: 20px;
+}
+
+.case-study-specs p {
+  margin-bottom: 0px;
+}
+
+.case-study-specs .margin-bottom-35 {
+  margin-bottom: 25px;
+}
+
+.deal-notes {
+  padding-right: 60px;
+}
+
+.deal-notes li {
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.award-header {
+  margin-bottom: 2px;
+}
+
+.award-type {
+  padding-right: 80px;
+}
+
+.large-quote {
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.small-quote {
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Content Page with Red Sidebar */
+.gray-block {
+  background-color: #808080;
+  height: 348px;
+}
+
+/* Community Page */
+.page-template-template-community .blank-block,
+.page-template-template-tenants .blank-block {
+  height: 150px;
+}
+
+.community {
+  margin-bottom: 160px;
+  padding-left: 30px;
+  padding-top: 74px;
+  padding-right: 30px;
+}
+
+.community .margin-bottom-35 {
+  margin-bottom: 25px;
+}
+
+.community p {
+  line-height: 22px;
+}
+
+.community ul li {
+  line-height: 22px;
+}
+
+/* Tenants Page */
+.tenants h1 {
+  margin-bottom: 28px;
+}
+
+.tenants p {
+  margin-bottom: 68px;
+}
+
+.investors p,
+.tenants p {
+  line-height: 23px;
+  /*padding-left: 80px;*/
+  padding-right: 15px;
+}
+
+.investors .margin-bottom-35 {
+  margin-bottom: 25px;
+}
+
+.tenant-btns {
+  margin-bottom: 277px;
+}
+
+.tenant-btns a {
+  background-color: #d41c22;
+  color: #fff;
+  display: block;
+  font-size: 11px;
+  margin-bottom: 15px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 150px;
+}
+
+.investor-btn,
+.login-btn {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 85px;
+  left: 0px;
+  top: 40px;
+}
+
+.investor-btn a,
+.login-btn a {
+  background-color: #d41c22;
+  color: #fff;
+  display: block;
+  font-size: 11px;
+  margin-bottom: 15px;
+  padding: 5px 0 5px 0;
+}
+
+.tenant-btns a:hover,
+.investor-btn a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
+/* Investors */
+.investors h1 {
+  margin-bottom: -12px;
+}
+
+.investors p:first-of-type {
+  margin-top: 70px;
+}
+
+/* Login */
+/* Contact Us */
+.contact,
+.login,
+.investors,
+.tenants {
+  padding-left: 13px;
+  padding-top: 52px;
+}
+
+.contact h1,
+.login h1 {
+  margin-bottom: 28px;
+}
+
+.address,
+.contact-numbers,
+.additional-info {
+  font-size: 18px;
+}
+
+.address {
+  margin-bottom: 30px;
+}
+
+.contact-numbers {
+  margin-bottom: 25px;
+}
+
+.additional-info {
+  margin-bottom: 90px;
+  padding-right: 20px;
+}
+
+.key-contacts h4.red {
+  margin-bottom: 35px;
+}
+
+.key-contact {
+  margin-bottom: 33px;
+}
+
+.key-contact:last-child,
+.investors p:last-child {
+  margin-bottom: 157px;
+}
+
+.key-contact-name-position {
+  line-height: 25px;
+}
+
+/* Footer Styles */
+#footer {
+  background-color: #452102;
+  color: #fff;
+  height: 205px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.copyright {
+    color: #fff;
+    line-height: 10px;
+    padding: 7px 0;
+}
+
+.footer_contact {
+  font-size: 13px;
+}
+
+.footer_privacy {
+  font-size: 8px;
+}
+
+.social a {
+  margin-right: 10px;
+}
