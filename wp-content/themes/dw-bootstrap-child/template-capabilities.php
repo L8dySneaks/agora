@@ -75,7 +75,7 @@
         </p>
       </div>
     </div>
-		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 tan-bg no-padding">
       <div class="capabilities-img">
         <img class="img-responsive" src="http://via.placeholder.com/400x546" />
       </div>

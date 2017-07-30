@@ -55,11 +55,16 @@ Template: dw-bootstrap
   font-style: normal;
 }
 
+html, body {
+  min-height: 100%;
+}
 
 body {
   /*background-color: #f0f0ec;*/
   font-family: SansPlain, Verdana, sans-serif;
   font-size: 15px;
+  overflow-x: hidden;
+  margin: 0px;
 }
 
 .red-bg {
@@ -516,6 +521,31 @@ body {
   line-height: 22px;
 }
 
+/* News Item */
+.news-item {
+  margin-left: 65px;
+}
+
+.item-date {
+  margin-bottom: 18px;
+  margin-top: 75px;
+}
+
+.item-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.item-article {
+  margin-bottom: 160px;
+  padding-right: 50px;
+}
+
+.item-article p {
+  line-height: 23px;
+  margin-bottom: 25px;
+}
+
 /* Tenants Page */
 .tenants h1 {
   margin-bottom: 28px;
@@ -553,7 +583,7 @@ body {
 }
 
 .investor-btn,
-.login-btn {
+.login-button {
   position: relative;
   text-align: center;
   vertical-align: middle;
@@ -562,8 +592,13 @@ body {
   top: 40px;
 }
 
+.login-button {
+  border: none;
+  top: 32px;
+}
+
 .investor-btn a,
-.login-btn a {
+.login-button {
   background-color: #d41c22;
   color: #fff;
   display: block;
@@ -576,6 +611,19 @@ body {
 .investor-btn a:hover {
   text-decoration: none;
   opacity: .8;
+}
+
+.login-forgot {
+  margin-bottom: 64px;
+  margin-top: 64px;
+}
+
+.form-control {
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #000000;
 }
 
 /* Investors */
@@ -597,9 +645,16 @@ body {
   padding-top: 52px;
 }
 
-.contact h1,
-.login h1 {
+.contact h1 {
   margin-bottom: 28px;
+}
+
+.login h1 {
+  margin-bottom: 60px;
+}
+
+.main-login-form {
+  width: 80%;
 }
 
 .address,

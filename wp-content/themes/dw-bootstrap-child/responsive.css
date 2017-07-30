@@ -283,6 +283,15 @@
        padding-right: 145px;
      }
 
+     /* News Item */
+     .item-title {
+       padding-right: 100px;
+     }
+
+     .item-article {
+       padding-right: 50px;
+     }
+
      /* Tenants Page */
      .tenants p {
        padding-right: 40px;
@@ -434,6 +443,11 @@
        padding-left: 60px;
        padding-right: 60px;
        padding-top: 115px;
+     }
+
+     /* News Item */
+     .item-article {
+      padding-right: 150px;
      }
 
      /* Investors */

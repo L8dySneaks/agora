@@ -15,11 +15,19 @@
 			<div class="login">
         <h1 class="text-uppercase">Log In To Your Account</h1>
 				<form>
-
+					<div class="main-login-form">
+						<div class="login-group">
+							<div class="form-group">
+								<input type="text" class="form-control" id="lg_email" name="lg_email" placeholder="Email Address">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="Password">
+							</div>
+						</div>
+							<button type="submit" class="login-button text-uppercase">Log In</button>
+					</div>
 				</form>
-				<div class="login-btn">
-          <a class="text-uppercase" href="#">Log In</a>
-        </div>
+
 				<div class="login-forgot">
 					<a href="#">Forgot your password?</a>
 				</div>
