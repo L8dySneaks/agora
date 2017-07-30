@@ -407,12 +407,17 @@
 
      /* About Template */
      .about-years {
-       padding: 80px 50px 0 40px;
+       padding: 75px 50px 0 64px;
      }
 
      .about-team {
-       padding: 80px 135px 0 40px;
+       padding: 75px 135px 0 64px;
      }
+
+     .about-portfolio {
+      padding: 75px 50px 80px 64px;
+    }
+
 
      /* For Sale And For Lease */
      .forsale-table,

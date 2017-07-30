@@ -19,8 +19,8 @@
 <!-- Content Layout -->
 
 <div id="agora-about" class="container-fluid">
-	<div class="row">
-    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 tan-bg">
+	<div class="row row-eq-height">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 tan-bg hp-grid-height">
 			<div class="about-years">
         <p class="caption">OVER OUR 30 YEARS OF EXISTENCE WE HAVE OWNED OVER 50 COMMERCIAL PROPERTIES ENCOMPASSING OVER 4 MILLION SQUARE FEET AND 20 MULTIFAMILY PROJECTS TOTALING OVER 5,000 UNITS</p>
 			</div>
