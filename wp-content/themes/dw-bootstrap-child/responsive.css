@@ -270,6 +270,25 @@
        padding-top: 115px;
      }
 
+     /* Team Page */
+     .team-member-info .col-sm-offset-1:first-child {
+       margin-left: 0px;
+     }
+     .team-member-info {
+       margin-right: 10px;
+       text-align: left;
+       margin-left: 0px;
+     }
+
+     .team-member {
+       margin-right: 10px;
+       width: 160%
+     }
+
+     .team-member-img img {
+       width: 150px;
+     }
+
      /* Community Page */
      .page-template-template-community .hp-grid-height {
        min-height: 348px;
@@ -444,6 +463,31 @@
        padding-right: 60px;
        padding-top: 115px;
      }
+
+     /* Team Page */
+     .team-member-info .col-sm-offset-1:first-child {
+       margin-left: 0px;
+     }
+
+     .team-member-info {
+       margin-right: 10px;
+       text-align: left;
+       padding-left: 30px;
+     }
+
+     .team p {
+       padding-left: 30px;
+     }
+
+     .team-member {
+       margin-right: 10px;
+       width: 100%
+     }
+
+     .team-member-img img {
+       width: 160px;
+     }
+
 
      /* News Item */
      .item-article {
@@ -644,6 +688,11 @@
      /* Tenants Page */
      .tenants p {
        padding-right: 100px;
+     }
+
+     /* Team Page */
+     .team-member-info {
+       margin-left: 20px;
      }
 
      /* Investors */

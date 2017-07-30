@@ -119,6 +119,10 @@ body {
   width: 100%;
 }
 
+.blank-block {
+  height: 150px;
+}
+
 /*  Home Page */
 #agora-home {
   color: white;
@@ -495,6 +499,37 @@ body {
   background-color: #808080;
   height: 348px;
 }
+
+/* Team Page */
+.team {
+  margin-bottom: 160px;
+}
+
+.team p {
+  line-height: 23px;
+  margin-bottom: 75px;
+  margin-top: 75px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.team-member {
+  margin-bottom: 73px;
+}
+
+.team-member-img img {
+  margin-bottom: 17px;
+}
+
+.team-member-info {
+  text-align: center;
+}
+
+.team-member-name {
+  font-family: SansBold;
+  padding-bottom: 3px;
+}
+
 
 /* Community Page */
 .page-template-template-community .blank-block,
