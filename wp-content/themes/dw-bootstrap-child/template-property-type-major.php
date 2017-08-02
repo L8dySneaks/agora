@@ -109,10 +109,60 @@
 		        Interactive Map
 		      </div>
 					<div class="col-xs-12">
-		        Demographics table information
+						<table class="table">
+					    <thead>
+					      <tr>
+					        <th></th>
+					        <th>1 Mile</th>
+					        <th>3 Mile</th>
+									<th>5 Mile</th>
+					      </tr>
+					    </thead>
+					    <tbody>
+					      <tr>
+					        <td>2016 Total Population</td>
+					        <td>72,416</td>
+					        <td>345,802</td>
+									<td>757,430</td>
+					      </tr>
+					      <tr>
+					        <td>2021 Total Population</td>
+					        <td>74,910</td>
+					        <td>356,585</td>
+									<td>780,954</td>
+					      </tr>
+					      <tr>
+					        <td>Pop Growth 2016-2021</td>
+					        <td>3.46%</td>
+					        <td>3.12%</td>
+									<td>3.11%</td>
+					      </tr>
+								<tr>
+					        <td>Average Age</td>
+					        <td>32.7</td>
+					        <td>35.10</td>
+									<td>36.00</td>
+					      </tr>
+					    </tbody>
+					  </table>
 		      </div>
 					<div class="col-xs-12">
-		        Documents links
+						<table class="table">
+					    <thead>
+					      <tr>
+					        <th>PDF</th>
+					        
+					      </tr>
+					    </thead>
+					    <tbody>
+					      <tr>
+					        <td>2016 Total Population</td>
+					        <td>72,416</td>
+					        <td>345,802</td>
+									<td>757,430</td>
+					      </tr>
+					    </tbody>
+					  </table>
 		      </div>
 		    </div>
 

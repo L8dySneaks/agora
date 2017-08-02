@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="agora-home-carousel" class="carousel slide" data-ride="carousel">
+<div id="agora-home-carousel" class="carousel slide hidden-xs" data-ride="carousel">
   <!-- Indicators -->
   <!-- <ol class="carousel-indicators">
     <li data-target="#agora-home-carousel" data-slide-to="0" class="active"></li>
@@ -12,9 +12,7 @@
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/evepano_hp.jpg" alt="Agora Image 1"/>
-      <div class="carousel-caption">
-        ...
-      </div>
+      <!-- <div class="carousel-caption"></div> -->
     </div>
     <!-- <div class="item">
       <img src="..." alt="...">
@@ -36,11 +34,33 @@
   </a>
 </div>
 
+<!-- <div class="header-img-text">
+  <p class="text-uppercase header-title">Envisioning</p>
+  <p class="title-caption caption-white">Neighborhood Destinations</p>
+</div> -->
+
+
+<div class="home-header-overlay">
+
+     <div class="home-header-content">
+       <p class="text-uppercase header-title white">Envisioning</p>
+       <p class="caption-white title-caption">Neighborhood Destinations</p>
+
+     </div>
+
+
+   </div>
 
 <!-- Content Layout -->
 
 <div id="agora-home" class="container-fluid">
-	<div class="row">
+  <div class="row">
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg no-padding">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/evepano_hp.jpg" alt="Agora Image 1"/>
+    </div>
+  </div>
+
+	<div class="row row-eq-height">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 home-properties-bg hp-grid-height">
 			<div class="home-properties">
 				<p class="title">Properties</p>
@@ -105,7 +125,7 @@
         </div>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 gray-bg hp-grid-height hidden-xs">
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 gray-bg hp-grid-height">
 			<div>
 			</div>
 		</div>
