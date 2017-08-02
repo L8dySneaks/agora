@@ -1,6 +1,6 @@
 <?php
 function dw_bootstrap_child_enqueue_styles() {
-    $parent_style = 'parent-style'; 
+    $parent_style = 'parent-style';
 
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' , array( 'bootstrap' ) );
     wp_enqueue_style( 'child-style',
@@ -18,3 +18,8 @@ register_nav_menus( array(
     'footer_menu' => 'Footer Menu',
 ) );
 
+
+# Enqueue Custom Scripts
+wp_enqueue_script('readmore', get_bloginfo('stylesheet_directory') . '/js/readmore.min.js', array('jquery'));
+wp_enqueue_script('jquery-functions', get_bloginfo('stylesheet_directory') . '/js/functions.js', array('jquery'), '1.0.4');
+wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' );

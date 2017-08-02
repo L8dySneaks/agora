@@ -406,16 +406,17 @@ a {
   overflow: hidden;
 }
 
-  .page-template-template-acquisitions .left-content,
-  .page-template-template-forsale .left-content,
-  .page-template-template-forlease .left-content {
-    color: #fff;
-    font-size: 16px;
-    line-height: 26px;
-    margin-top: 80px;
-    padding: 0 50px;
-    text-transform: uppercase;
-  }
+.page-template-template-acquisitions .left-content,
+.page-template-template-forsale .left-content,
+.page-template-template-forlease .left-content,
+.page-template-template-application .left-content {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 80px;
+  padding: 0 50px;
+  text-transform: uppercase;
+}
 
   .page-template-template-acquisitions .right-content,
   .page-template-template-forsale .right-content,
@@ -423,6 +424,13 @@ a {
     margin-bottom: 153px;
     margin-top: 80px;
     max-width: 640px;
+    padding-left: 54px;
+  }
+
+  .page-template-template-application .right-content {
+    margin-bottom: 153px;
+    margin-top: 80px;
+    max-width: 800px;
     padding-left: 54px;
   }
 
@@ -484,6 +492,35 @@ a {
   background-size: cover;
   min-height: 348px;
   overflow: hidden;
+}
+
+/* Template Tennant Application */
+
+.right-content p:first-child {
+  padding-right: 120px;
+  margin-bottom: 64px;
+}
+
+.application-title {
+  font-size: 32px;
+}
+
+.page-template-template-application .form-control {
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+
+.page-template-template-application form {
+  margin-top: 25px;
+}
+
+.page-template-template-application label {
+  font-weight: normal;
+}
+
+hr {
+  border-top: 1px solid #452102;
 }
 
 /* Template About */
@@ -778,6 +815,9 @@ a {
 }
 
 
+
+
+
 /* News Item */
 .news-item {
   margin-left: 0px;
@@ -875,7 +915,7 @@ a {
   margin-top: 64px;
 }
 
-.form-control {
+.page-template-template-login .form-control {
   box-shadow: none;
   background: transparent;
   border: none;

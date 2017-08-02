@@ -4,7 +4,8 @@
    @media only screen and (min-width : 320px) {
     .page-template-template-acquisitions .left-content,
     .page-template-template-forsale .left-content,
-    .page-template-template-forlease .left-content {
+    .page-template-template-forlease .left-content,
+    .page-template-template-application .left-content {
       margin-top: 50px;
       margin-bottom: 50px;
     }
@@ -37,7 +38,8 @@
 
     .page-template-template-acquisitions .left-content,
     .page-template-template-forsale .left-content,
-    .page-template-template-forlease .left-content {
+    .page-template-template-forlease .left-content,
+    .page-template-template-application .left-content {
       margin-top: 50px;
       margin-bottom: 50px;
     }
@@ -253,7 +255,8 @@
 
      .page-template-template-acquisitions .left-content,
      .page-template-template-forsale .left-content,
-     .page-template-template-forlease .left-content {
+     .page-template-template-forlease .left-content,
+     .page-template-template-application .left-content {
        margin-top: 74px;
        padding: 0 20px;
      }
@@ -262,7 +265,8 @@
        margin-left: 64px;
      }
 
-     .page-template-template-acquisitions .right-content {
+     .page-template-template-acquisitions .right-content,
+     .page-template-template-application .right-content {
        margin-top: 74px;
        padding-left: 80px;
      }
@@ -508,7 +512,8 @@
 
      .page-template-template-acquisitions .left-content,
      .page-template-template-forsale .left-content,
-     .page-template-template-forlease .left-content {
+     .page-template-template-forlease .left-content,
+     .page-template-template-application .left-content {
        padding: 0 50px;
      }
 
@@ -703,7 +708,8 @@
 
      .page-template-template-acquisitions .left-content,
      .page-template-template-forsale .left-content,
-     .page-template-template-forlease .left-content {
+     .page-template-template-forlease .left-content,
+     .page-template-template-application .left-content {
        padding: 0 50px;
      }
 
