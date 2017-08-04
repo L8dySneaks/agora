@@ -312,6 +312,71 @@ a {
   font-size: 22px;
 }
 
+/* Properties Page */
+.agora-properties {
+  background-image: url("http://via.placeholder.com/1280x348");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 348px;
+  overflow: hidden;
+}
+
+.property-btn {
+  color: #83abd2;
+  font-size: 14px;
+}
+
+.page-template-template-properties form {
+  min-height: 145px;
+  padding-left: 64px;
+  padding-top: 55px;
+}
+
+.page-template-template-properties .form-group {
+  padding-right: 21px;
+}
+
+.long-text-field {
+  width: 20%
+}
+
+.page-template-template-properties button {
+  background:none!important;
+  border:none;
+  padding:0!important;
+  cursor:pointer;
+}
+
+.custom-control-description {
+  color: #000;
+  font-size: 13px;
+  padding-right: 31px;
+}
+
+.page-template-template-properties .table>thead>tr>th {
+  border: none;
+  padding-left: 64px;
+}
+
+.page-template-template-properties .table>thead>tr>th.secondary-header {
+  font-size: 12px;
+  font-family: SansBold;
+  letter-spacing: 2px;
+  height: 55px;
+  vertical-align: middle;
+}
+
+.retail-properties td,
+.consulting-projects td {
+  padding-left: 64px !important;
+}
+
+.table.retail-properties>tbody>tr>td,
+.table.consulting-projects>tbody>tr>td {
+  padding: 23px 0;
+}
+
 /* Property Type */
 .property-minor-info,
 .property-major-info {
@@ -496,7 +561,7 @@ a {
 
 /* Template Tennant Application */
 
-.right-content p:first-child {
+.page-template-template-application .right-content p:first-child {
   padding-right: 120px;
   margin-bottom: 64px;
 }
@@ -915,13 +980,17 @@ hr {
   margin-top: 64px;
 }
 
-.page-template-template-login .form-control {
+.page-template-template-login .form-control,
+.page-template-template-properties .form-control {
   box-shadow: none;
   background: transparent;
   border: none;
   border-radius: 0;
   border-bottom: 1px solid #000000;
+  color: #000;
+  font-size: 12px;
 }
+
 
 /* Investors */
 .investors h1 {

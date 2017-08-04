@@ -10,7 +10,7 @@
 <div class="agora-forlease">
   <div class="row">
     <div class="col-md-12">
-      <p class="text-uppercase header-title">For Lease</p>
+      <p class="text-uppercase header-title white">For Lease</p>
     </div>
   </div>
 </div>

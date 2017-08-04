@@ -11,7 +11,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p class="text-uppercase header-title">Case Studies</p>
+        <p class="text-uppercase header-title white">Case Studies</p>
       </div>
     </div>
   </div>

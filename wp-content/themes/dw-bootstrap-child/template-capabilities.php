@@ -10,7 +10,7 @@
 <div class="agora-capabilites container-fluid">
   <div class="row">
     <div class="col-md-12">
-      <p class="text-uppercase header-title">Capabilites</p>
+      <p class="text-uppercase header-title white">Capabilites</p>
     </div>
   </div>
 </div>

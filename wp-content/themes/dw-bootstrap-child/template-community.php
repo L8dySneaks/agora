@@ -12,7 +12,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6 hp-grid-height red-bg">
         <div>
-          <p class="text-uppercase header-title">In The Community</p>
+          <p class="text-uppercase header-title white">In The Community</p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-6 gray-bg">

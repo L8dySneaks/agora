@@ -10,7 +10,7 @@
 <div class="agora-forsale container-fluid">
   <div class="row">
     <div class="col-md-12">
-      <p class="text-uppercase header-title">For Sale</p>
+      <p class="text-uppercase header-title white">For Sale</p>
     </div>
   </div>
 </div>
